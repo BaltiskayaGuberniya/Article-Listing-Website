@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "JetBrains Mono";
+  color: black;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 900px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #ff8c00;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ff8c00;
+}
+.content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 15px;
+}
+
+article-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.article-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.article-preview h2 {
+  font-size: 18px;
+  color: #ff8c00;
+  margin-bottom: 8px;
+}
+.article-preview a{
+  text-decoration: none;
+}
+
+.article-list h2 {
+  font-size: 20px;
+  color: #ff8c00;
+  margin-bottom: 10px;
+}
+.article-list div {
+  margin: 20px 0;
+}
+.article-list button {
+  background: #ff8c00;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.createArticle {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.createArticle label {
+  text-align: left;
+  display: block;
+}
+.createArticle h2 {
+  font-size: 20px;
+  color: #ff8c00;
+  margin-bottom: 30px;
+}
+.createArticle input, .createArticle textarea, .createArticle select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.createArticle button {
+  background: #ff8c00;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.newArticle {
+  background: #ff8c00;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
